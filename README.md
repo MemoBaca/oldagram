@@ -1,4 +1,4 @@
-# Oldagram
+# oldagram
 
 Quick start:
 
