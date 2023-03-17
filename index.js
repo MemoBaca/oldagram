@@ -34,26 +34,26 @@ let counter = 0
 let likes = []
 let hasLiked = []
 
-for (post of posts) {
+for (elements of posts) {
     cont.innerHTML += `
         <section class="post">
             <div class="subheader">
-                <img src="${post.avatar}" class="post-avatar">
+                <img src="${elements.avatar}" class="post-avatar">
                 <div class="post-text">
-                    <h1>${post.name}</h1>
-                    <h2>${post.location}</h2>
+                    <h1>${elements.name}</h1>
+                    <h2>${elements.location}</h2>
                 </div>
             </div>
-            <img src="${post.post}" class="post-img">
+            <img src="${elements.post}" class="post-img">
             <div class="icons">
                 <img src="images/icon-heart.png" class="post-icons">
                 <img src="images/icon-comment.png">
                 <img src="images/icon-dm.png">
             </div>
-            <h3 class="post-likes">${post.likes} likes</h3>
-            <h4>${post.username} <span class="reg">${post.comment}</span></h4>
+            <h3 class="post-likes">${elements.likes} likes</h3>
+            <h4>${elements.username} <span class="reg">${elements.comment}</span></h4>
         </section>`
-    likes.push(post.likes)
+    likes.push(elements.likes)
     hasLiked.push(false)
     counter++
 }
