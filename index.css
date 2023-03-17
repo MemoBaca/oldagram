@@ -1,0 +1,106 @@
+body {
+    margin: 0 auto;
+    width: 375px;
+    padding: 0 auto;
+    background-color: lightblue;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+section {
+    background-color: white;
+    display: flex;
+}
+
+h1,h2 {
+    display: block;
+    margin: 0;
+}
+
+h1{
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 13px;
+    margin: 8 0 12px 13px;
+}
+
+h4 {
+    font-size: 13px;
+    margin: 0 13px 16px;
+}
+
+.container{
+    background-color: #EDEDED;
+}
+
+.logo{
+    width: 127px;
+    margin-left: 15px;
+    //object-fit: contain;
+
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.post-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 10px 10px 7px 10px;
+}
+
+.post-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons img{
+    width: 20px;
+    object-fit: contain;
+    margin: 20px 0 0 10px;
+}
+
+.icons img:hover{
+    opacity: 50%;
+}
+
+.reg {
+    font-weight: 400;
+}
+
+
+
+
+
+
