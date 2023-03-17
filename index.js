@@ -34,7 +34,7 @@ let counter = 0
 let likes = []
 let hasLiked = []
 
-for (elements of posts) {
+for (let elements of posts) {
     cont.innerHTML += `
         <section class="post">
             <div class="subheader">
