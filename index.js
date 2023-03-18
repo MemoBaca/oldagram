@@ -66,7 +66,7 @@ for (let i = 0; i < imgs.length; i++) {
     imgs[i].addEventListener("dblclick", function () {  
         updateLikes(i)
     })
-    icons[i].addEventListener("dblclick", function () {
+    icons[i].addEventListener("click", function () {
         updateLikes(i)  
     })
   }
